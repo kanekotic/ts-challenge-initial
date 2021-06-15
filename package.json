@@ -1,0 +1,37 @@
+{
+    "name": "challenge-ts",
+    "version": "0.0.1",
+    "description": "challenge app",
+    "main": "src/index.ts",
+    "scripts": {
+        "test": "jest",
+        "test:dev": "jest --watchAll",
+        "start": "ts-node .",
+        "start:dev": "ts-node-dev --poll .",
+        "lint": "eslint . --ext .ts",
+        "lint:fix": "eslint . --ext .ts --fix"
+    },
+    "repository": "git@github.com:kanekotic/togglee-server.git",
+    "author": "kanekotic <alvarojosepl@gmail.com>",
+    "license": "MIT",
+    "private": true,
+    "devDependencies": {
+        "@types/jest": "26.0.23",
+        "@types/node": "15.12.2",
+        "@typescript-eslint/eslint-plugin": "4.26.1",
+        "eslint": "7.28.0",
+        "eslint-config-prettier": "8.3.0",
+        "eslint-plugin-import": "2.23.4",
+        "eslint-plugin-prettier": "3.4.0",
+        "faker": "5.5.3",
+        "jest": "27.0.4",
+        "nodemon": "2.0.7",
+        "prettier": "2.3.1",
+        "ts-jest": "27.0.3",
+        "ts-node-dev": "1.1.6"
+    },
+    "jest": {
+        "preset": "ts-jest",
+        "testEnvironment": "node"
+    }
+}
